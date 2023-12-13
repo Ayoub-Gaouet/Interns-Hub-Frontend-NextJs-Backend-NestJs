@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.etape-component {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.etape-title {
+  font-weight: 800;
+  font-size: 4.375rem; /* 70px */
+  color: #0F0A3C;
+  width: 50%;
+}
+
+.etape-button {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 2.5rem; /* 40px */
+  background-color: #585858;
+  color: #0F0A3C;
+  font-weight: bold;
+  padding: 0.5rem 1rem; /* 8px 16px */
+  border-radius: 9999px; /* Full roundness */
+  transition: background-color 300ms ease-in-out;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.etape-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0F0A3C;
+}
+
+.etape-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2.5rem; /* 40px */
+}
+
+.etape-card {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 1rem;
+  width: 22%; /* Adjust based on your layout */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.etape-card-title {
+  font-size: 1.25rem; /* 20px */
+  color: #0F0A3C;
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* 8px */
+}
+
+.etape-card-description {
+  font-size: 1rem; /* 16px */
+  color: #0F0A3C;
+}
+
+
+
+.newsletter-container {
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.newsletter-title {
+  font-size: 1.875rem; /* 30px */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem; /* Spacing between input and button */
+}
+
+.newsletter-input {
+  padding: 0.5rem 1rem;
+  border-radius: 20px; /* Rounded borders */
+  border: 1px solid #ccc; /* Light grey border */
+  outline: none;
+  font-size: 1rem;
+  width: 40%; /* Adjust based on your layout */
+}
+
+.newsletter-input:focus {
+  border-color: #585858; /* Highlight color when focused */
+}
+
+.newsletter-submit {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px; /* Fully rounded borders for the button */
+  border: none;
+  background-color: #23E7A1; /* Background color */
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.newsletter-submit:hover,
+.newsletter-submit:focus {
+  background-color: #23E7A1; /* Slightly darker green for interaction */
+}
+
+.arrow-right {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+
